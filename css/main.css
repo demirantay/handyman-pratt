@@ -1,0 +1,158 @@
+* {
+    margin:0px;
+    padding: 0px;
+    font-family: 'Roboto';
+}
+
+.clear-float {
+    clear: both;
+}
+
+/* ------------- top nav ------------- */
+.top-nav {
+    z-index: 10000;
+    position: fixed;
+    background-color: #fff;
+    top:0;
+    left:0;
+    right:0;
+    box-sizing: border-box;
+    padding: 1px 0px;
+    transition: padding-top 0.3s;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    height: 135px;
+}
+
+.top-nav a {
+    text-decoration: none;
+}
+
+.top-nav-left-box {
+    border-right: 1px solid #E8E8E8;
+    width: 18%;
+    display: inline-block;
+    text-align: center;
+}
+
+.top-nav-left-box img {
+    height: 130px;
+}
+
+.top-nav-right-box {
+    display: inline-block;
+    vertical-align: top;
+    width: 81.6%;
+}
+
+.top-nav-right-box-top {
+    height: 50px;
+    border-bottom: 1px solid #EEF1F0;
+    padding-left: 40px;
+    padding-right: 15px;
+}   
+
+.top-nav-right-box-top p {
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 15px;
+    font-weight: 300;
+    font-size: 15px;
+    padding: 0px;
+}
+
+.top-nav-right-box-top p a {
+    text-decoration: none;
+    color: black;
+}
+
+.top-nav-right-box-top p a:hover {
+    text-decoration: underline;
+}
+
+
+.top-nav-right-box-top p i {
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -3px;
+    margin-right: 5px;
+}
+
+.social-link-top-nav {
+    float: right;
+    font-size: 28px;
+    margin-top: 10px;
+    margin-right: 18px;
+    color: grey;
+}
+
+.top-nav-right-box-bottom {
+    padding-left: 70px;
+    padding-right: 0px;
+}
+
+.top-nav-right-box-bottom a {
+    color: #4D4B66;
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.top-nav-right-box-bottom a:hover {
+    transition: 0.2s;
+    border-bottom: 2px solid #EB1D23;
+}
+
+.active-top-link {
+    border-bottom: 2px solid #EB1D23;
+}
+
+.big-contact-link {
+    float: right;
+    background-color: #EB1D23;
+    border-radius: 25px;
+    padding: 15px 30px !important;
+    margin-top: 15px !important;
+    font-weight: 600 !important;
+    color: white !important;
+}
+
+
+/* ------------- breadcrumb banner ------------- */
+.breadcrumb-banner {
+    width: 100%;
+    background-color: lightgrey;
+    height: 250px;
+    margin-top: 135px;
+
+    background-image: url("../img/img2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bread-crumb-opacity-filter {
+    z-index: 10;
+    background-color: #216484;
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+}
+
+.breadcrumb-banner h1 {
+    color: white;
+    opacity: 1.0 !important;
+    z-index: 111;
+    font-size: 70px;
+    padding-top: 70px;
+    margin-left: 5%;
+}
+
+
+/* ------------- block content ------------- */
+
+
+/* ------------- footer ------------- */
