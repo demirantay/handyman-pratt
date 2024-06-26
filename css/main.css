@@ -170,7 +170,7 @@
 
 /* ------------- block content ------------- */
 .block-content-wrapper {
-    height: 80vh;
+    height: auto;
 }
 
 /* ------------- footer ------------- */
@@ -276,4 +276,11 @@
 .footer-bottom {
     height: 70px;
     background-color: #055373;
+}
+
+.footer-bottom p {
+    padding-top: 28px;
+    margin-left: 5%;
+    color: #B3C7D1;
+    font-weight: 300;
 }
