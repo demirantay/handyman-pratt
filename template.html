@@ -25,7 +25,7 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 
     <!-- BASE CSS LINKS -->
-    <link rel="stylesheet" type="text/css" href="./css/main.css" />
+    <link rel="stylesheet" type="text/css" href="../css/main.css" />
 
     <!-- JQUERY CDN -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -36,14 +36,14 @@
 
     <!-- landing page -->
     <!-- top nav -->
-    <div class="top-nav">
-        <a href="">
+    <div class="top-nav" id="navbar">
+        <a href="../index.html">
             <div class="top-nav-left-box">
-                <img alt="logo" src="./branding/logo.png">
+                <img alt="logo" src="../branding/logo.png" id="navbar-logo">
             </div>
         </a>    
         <div class="top-nav-right-box">
-            <div class="top-nav-right-box-top">
+            <div class="top-nav-right-box-top" id="navbar-top">
                 <p><a href=""><i class="ri-phone-line"></i> Call us at (310) 347-0298</a></p>
                 <p><i class="ri-time-line"></i> Opening hours: Mon - Sat: 8:00am To 9:00pm</p>
 
@@ -51,13 +51,13 @@
                 <a class="social-link-top-nav" href="#"><i class="ri-instagram-line"></i></a>
             </div>
             <div class="top-nav-right-box-bottom">
-                <a href="" class="active-top-link">Home</a>
-                <a href="">About</a>
-                <a href="">Services</a>
-                <a href="">Portfolio</a>
-                <a href="">Contact</a>
+                <a href="../index.html">Home</a>
+                <a href="./about.html" class="active-top-link">About</a>
+                <a href="./services.html">Services</a>
+                <a href="./testimonial.html">Portfolio</a>
+                <a href="./contact.html">Contact</a>
 
-                <a href="" class="big-contact-link">CONTACT US</a>
+                <a href="./contact.html" class="big-contact-link">CONTACT US</a>
             </div>
         </div>
     </div>
@@ -68,7 +68,7 @@
     <!-- breadcrumb banner -->
     <div class="breadcrumb-banner">
         <div class="bread-crumb-opacity-filter">
-            <h1>Contact Us</h1>
+            <h1>About</h1>
         </div>
     </div>
 
@@ -80,7 +80,7 @@
     <!-- footer -->
     <div class="footer">
         <div class="footer-left-box">
-            <a href="" class="footer-logo"><img src="./branding/logo.png" alt="logo"></a>
+            <a href="../index.html" class="footer-logo"><img src="../branding/logo.png" alt="logo"></a>
             <p>Washington State's premier handyman service, offering expert 
                 residential and commercial solutions with a commitment to 
                 quality and customer satisfaction.
@@ -115,10 +115,10 @@
 </html>
 
 <script>
-
+    
     // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
     window.onscroll = function () { scrollFunction() };
-
+        
     function scrollFunction() {
         if (window.scrollY > 50) {
             document.getElementById("navbar-top").style.display = "none";
