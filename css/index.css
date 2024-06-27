@@ -150,3 +150,44 @@
     margin-right: 25px;
     font-weight: 300;
   }
+
+/* ---------- about -------------- */
+.about-banner {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.about-banner-left {
+  display: inline-block;
+  width: 45%;
+  vertical-align: top;
+  border: 1px solid black;
+}
+
+.about-banner-img {
+
+}
+
+.about-banner-right {
+  display: inline-block;
+  width: 45%;
+  vertical-align: top;
+  border: 1px solid black;
+  text-align: left;
+}
+
+.about-banner-right h3 {
+
+}
+
+.about-banner-right h1 {
+
+}
+
+.about-banner-right p {
+
+}
+
+
+ /* ---------- portfolio -------------- */
