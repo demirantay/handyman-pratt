@@ -7,7 +7,7 @@
 
 .hello-bg-opacity {
     position: absolute;
-    background-color: #216484;
+    background-color: #092E4B;
     top: 0;
     bottom: 0;
     left:0;
@@ -19,44 +19,134 @@
 .hello-text {
     position: absolute;
     opacity: 1;
-    background-color: white;
-    margin-top: 200px;
-    width: 50%;
-    margin-left: 25%;
+    background-color: transparent;
+    margin-top: 230px;
+    width: 70%;
+    margin-left: 15%;
     z-index: 99 !important;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    text-align: center;
+}
+
+.hello-text h5 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.hello-text h1 {
+  font-size: 60px;
+  width: 65%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.hello-text a {
+  font-weight: 600;
+  background-color: #EB1D23;
+  border-radius: 25px;
+  padding: 15px 30px !important;
+  font-weight: 600 !important;
+  color: white !important;
+  text-decoration: none;
+}
+
+.hello-text a:hover {
+  background-color: #216484;
+  transition: 0.2s;
+  border-bottom: 2px solid #EB1D23;
 }
 
 .corner {
     position: absolute;
+    background: none;
+    height: 25%;
+    width: 15%;
 }
+
 #top-left {
     top: 0;
     left: 0;
-    border-radius: 5px 0 0 0;
-    border-top: 2px solid #ff7777;
-    border-left: 2px solid #ff7777;
+    border-radius: 1px 0 0 0;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
   }
   #top-right {
     top: 0;
     right: 0;
-    border-radius: 0 5px 0 0;
-    border-top: 2px solid #ff7777;
-    border-right: 2px solid #ff7777;
+    border-radius: 0 1px 0 0;
+    border-top: 2px solid white;
+    border-right: 2px solid white;
   }
   #bottom-right {
     bottom: 0;
     right: 0;
-    border-radius: 0 0 5px 0;
-    border-bottom: 2px solid #ff7777;
-    border-right: 2px solid #ff7777;
+    border-radius: 0 0 1px 0;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
   }
   #bottom-left {
     bottom: 0;
     left: 0;
-    border-radius: 0 0 0 5px;
-    border-bottom: 2px solid #ff7777;
-    border-left: 2px solid #ff7777;
+    border-radius: 0 0 0 1px;
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
   }
   .hello-text h1 {
     text-align: center;
+  }
+
+
+  /* ---------- services links -------------- */
+  .services-links {
+    background-color: #F7F7F7;
+  }
+
+  .services-links a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .service-box {
+      border-right: 1px solid lightgrey;
+      display: inline-block;
+      height: 350px;
+      background-color: #F7F7F7;
+      width: 19.8%;
+      padding: 10px 1px;
+      vertical-align: top;
+      margin-right: -3.5px;
+  }
+
+  .service-box:hover {
+    transition: 0.2s;
+    background-color: #092E4B;
+    color: white;
+  }
+
+  .service-box h3 {
+    margin-left: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-weight: 300;
+  }
+
+  .service-box h3 i {
+
+  }
+
+  .service-box h2 {
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+
+  .service-box p {
+    font-size: 18px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-weight: 300;
   }
