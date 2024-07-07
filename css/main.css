@@ -1,5 +1,5 @@
 * {
-    margin:0px;
+    margin: 0px;
     padding: 0px;
     font-family: 'Roboto';
 }
@@ -13,16 +13,17 @@
     z-index: 10000;
     position: fixed;
     background-color: #fff;
-    top:0;
-    left:0;
-    right:0;
+    top: 0;
+    left: 0;
+    right: 0;
     box-sizing: border-box;
     padding: 1px 0px;
     transition: padding-top 0.3s;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     height: 135px;
 
-    transition: 0.4s; /* Adds a transition effect when the padding is decreased */
+    transition: 0.4s;
+    /* Adds a transition effect when the padding is decreased */
 }
 
 .top-nav a {
@@ -51,7 +52,7 @@
     border-bottom: 1px solid #EEF1F0;
     padding-left: 40px;
     padding-right: 15px;
-}   
+}
 
 .top-nav-right-box-top p {
     display: inline-block;
@@ -132,6 +133,92 @@
     transition: 0.2s;
 }
 
+/* -------------- HIDDEN MOBILE NAV ------------ */
+.hidden-temp-mobile-nav {
+    display: none;
+    z-index: 10000;
+    position: fixed;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-sizing: border-box;
+    padding: 1px 0px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    height: 90px;
+}
+
+.hidden-temp-mobile-nav a {
+
+}
+
+.hidden-temp-mobile-left-box {
+    display: inline-block;
+    vertical-align: top;
+    width: 28%;
+    padding-top: 0px;
+}
+
+.hidden-temp-mobile-left-box img {
+    height: 70px;
+    margin-left: 10%;
+    margin-top: 8px;
+}
+
+.hidden-temp-mobile-right-box {
+    display: inline-block;
+    vertical-align: top;
+    width: 68%;
+    float: right;
+    text-align: right;
+}
+
+.hidden-temp-mobile-right-box p {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 30px;
+    font-weight: 300;
+    font-size: 20px;
+    padding: 0px;
+} 
+
+.hidden-temp-mobile-right-box p a {
+    text-decoration: none;
+    color: black;
+}
+
+.hidden-temp-mobile-right-box p a i {
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -3px;
+    margin-right: 5px;
+}
+
+.hidden-temp-mobile-right-box button {
+    display: inline-block;
+    vertical-align: top;
+    background-color: #4D4B66;
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 3%;
+    border: 0px;
+    border-radius: 4px;
+    padding: 15px 15px 10px 15px; 
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.hidden-mobile-bg {
+    display: none;
+}
+
+.hidden-mobile-nav {
+    display: none;
+}
+
 
 /* ------------- breadcrumb banner ------------- */
 .breadcrumb-banner {
@@ -151,9 +238,9 @@
     background-color: #216484;
     height: 100%;
     width: 100%;
-    
+
     opacity: 0.8;
-    
+
 }
 
 .breadcrumb-banner h1 {
@@ -189,9 +276,7 @@
     margin-right: 5%;
 }
 
-.footer-logo {
-
-}
+.footer-logo {}
 
 .footer-logo img {
     height: 200px;
@@ -200,7 +285,7 @@
 .footer-left-box p {
     width: 30%;
     color: white;
-    
+
     margin: 0;
     width: 70%;
     font-size: 17px;
@@ -257,11 +342,13 @@
     color: white;
 }
 
-.footer-col h3, .footer-col-big h3 {
+.footer-col h3,
+.footer-col-big h3 {
     font-weight: 900;
-}   
+}
 
-.footer-col a, .footer-col-big a {
+.footer-col a,
+.footer-col-big a {
     font-weight: 300;
     text-decoration: none;
     color: #D0E0E8;
@@ -269,7 +356,8 @@
     margin-top: 18px;
 }
 
-.footer-col a:hover, .footer-col-big a:hover {
+.footer-col a:hover,
+.footer-col-big a:hover {
     text-decoration: underline;
 }
 
@@ -284,3 +372,64 @@
     color: #B3C7D1;
     font-weight: 300;
 }
+
+
+/* Mobile Small  --------------------------------------------------------- */
+@media screen and (min-width: 0px) and (max-width: 320px) {
+    .top-nav {
+        display: none;
+    }
+    .hidden-temp-mobile-nav {
+        display: block;
+    }
+}
+
+/* Mobile Medium  --------------------------------------------------------- */
+@media screen and (min-width: 321px) and (max-width: 375px) {
+    .top-nav {
+        display: none;
+    }
+    .hidden-temp-mobile-nav {
+        display: block;
+    }
+}
+
+/* Mobile Large - --------------------------------------------------------- */
+@media screen and (min-width: 376px) and (max-width: 425px) {
+    .top-nav {
+        display: none;
+    }
+    .hidden-temp-mobile-nav {
+        display: block;
+    }
+}
+
+/* Tablet - --------------------------------------------------------------- */
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .top-nav {
+        display: none;
+    }
+    .hidden-temp-mobile-nav {
+        display: block;
+    }
+}
+
+/* Laptop ------------------------------------------------------------------ */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+    /* ------------- top nav ------------- */
+    .top-nav-left-box {
+        width: 18%;
+    }
+
+    .top-nav-right-box {
+        width: 81%;
+    }
+
+}
+
+/* Laptop Large -------------------------------------------------------------*/
+@media screen and (min-width: 1025px) and (max-width: 1440px) {}
+
+/* 4K Large Desktop ------------------------------------------------------- */
+@media screen and (min-width: 1441px) {}
