@@ -75,13 +75,19 @@
         </a>
         <div class="hidden-temp-mobile-right-box">
             <p><a href=""><i class="ri-phone-line"></i> Call us at (360) 774 05 29</a></p>
-            <button><i class="ri-menu-line"></i></button>
+            <button id="hidden-mobile-open-btn"><i class="ri-menu-line"></i></button>
         </div>
     </div>
 
-    <div class="hidden-mobile-bg"></div>
-    <div class="hidden-mobile-nav">
-
+    <div class="hidden-mobile-bg" id="hidden-mobile-bg"></div>
+    <div class="hidden-mobile-nav" id="hidden-mobile">
+        <button id="hidden-mobile-close-btn"><i class="ri-close-line"></i></button>
+        <div class="clear-float"></div>
+        <a href="./index.html">Home</a>
+        <a href="./html/about.html">About</a>
+        <a href="./html/services.html">Services</a>
+        <a href="./html/testimonial.html">Portfolio</a>
+        <a href="./html/contact.html">Contact</a>
     </div>
 
 
@@ -261,4 +267,21 @@
             document.getElementById("navbar-logo").style.height = "130px";
         }
     }
+
+    // hidden mobile navigation toggle logic
+    let open_btn = document.getElementById("hidden-mobile-open-btn");
+    let close_btn = document.getElementById("hidden-mobile-close-btn");
+    let hidden_mobile_bg = document.getElementById("hidden-mobile-bg");
+    let hidden_mobile = document.getElementById("hidden-mobile");
+
+    open_btn.onclick = function() {
+        hidden_mobile_bg.style.display = "block";
+        hidden_mobile.style.display = "block";
+    }
+
+    close_btn.onclick = function() {
+        hidden_mobile_bg.style.display = "none";
+        hidden_mobile.style.display = "none";
+    }
+
 </script>

@@ -213,10 +213,47 @@
 
 .hidden-mobile-bg {
     display: none;
+    position: fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 99999;
 }
 
 .hidden-mobile-nav {
     display: none;
+    position: fixed;
+    top:0;
+    bottom:0;
+    right:0;
+    background-color: white;
+    z-index: 999999;  
+    width: 50%; 
+}
+
+.hidden-mobile-nav button {
+    float: right;
+    display: block;
+    font-size: 28px;
+    font-weight: 900;
+    margin-top: 30px;
+    margin-right: 5%;
+    margin-bottom: 50px;
+    background-color: transparent;
+    border: 0px;
+}
+
+.hidden-mobile-nav a {
+    font-size: 25px;
+    text-align: right;
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-right: 7%;
+    margin-bottom: 30px;
 }
 
 
@@ -382,6 +419,14 @@
     .hidden-temp-mobile-nav {
         display: block;
     }
+
+    .hidden-temp-mobile-right-box p {
+        font-size: 16px;
+    } 
+
+    .hidden-mobile-nav {
+        width: 80%; 
+    }
 }
 
 /* Mobile Medium  --------------------------------------------------------- */
@@ -392,6 +437,14 @@
     .hidden-temp-mobile-nav {
         display: block;
     }
+
+    .hidden-temp-mobile-right-box p {
+        font-size: 16px;
+    } 
+
+    .hidden-mobile-nav {
+        width: 80%; 
+    }
 }
 
 /* Mobile Large - --------------------------------------------------------- */
@@ -401,6 +454,14 @@
     }
     .hidden-temp-mobile-nav {
         display: block;
+    }
+
+    .hidden-temp-mobile-right-box p {
+        font-size: 16px;
+    } 
+
+    .hidden-mobile-nav {
+        width: 80%; 
     }
 }
 
