@@ -427,6 +427,10 @@
     .hidden-mobile-nav {
         width: 80%; 
     }
+    .breadcrumb-banner {
+        margin-top: 90px;
+    }
+    
 }
 
 /* Mobile Medium  --------------------------------------------------------- */
@@ -444,6 +448,9 @@
 
     .hidden-mobile-nav {
         width: 80%; 
+    }
+    .breadcrumb-banner {
+        margin-top: 90px;
     }
 }
 
@@ -463,6 +470,15 @@
     .hidden-mobile-nav {
         width: 80%; 
     }
+    .breadcrumb-banner {
+        margin-top: 90px;
+        height: 200px !important;
+    }
+
+    .breadcrumb-banner h1 {
+        padding-top: 60px;
+        font-size: 55px !important;
+    }
 }
 
 /* Tablet - --------------------------------------------------------------- */
@@ -472,6 +488,9 @@
     }
     .hidden-temp-mobile-nav {
         display: block;
+    }
+    .breadcrumb-banner {
+        margin-top: 90px;
     }
 }
 
