@@ -155,7 +155,7 @@
 .hidden-temp-mobile-left-box {
     display: inline-block;
     vertical-align: top;
-    width: 28%;
+    width: 25%;
     padding-top: 0px;
 }
 
@@ -168,7 +168,7 @@
 .hidden-temp-mobile-right-box {
     display: inline-block;
     vertical-align: top;
-    width: 68%;
+    width: 73%;
     float: right;
     text-align: right;
 }
@@ -178,7 +178,7 @@
     vertical-align: top;
     margin-top: 30px;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 16px;
     padding: 0px;
 } 
 
@@ -202,7 +202,7 @@
     background-color: #4D4B66;
     color: white;
     font-size: 20px;
-    margin-left: 20px;
+    margin-left: 15px;
     margin-right: 3%;
     border: 0px;
     border-radius: 4px;
@@ -421,7 +421,7 @@
     }
 
     .hidden-temp-mobile-right-box p {
-        font-size: 16px;
+        display: none;
     } 
 
     .hidden-mobile-nav {
@@ -429,6 +429,62 @@
     }
     .breadcrumb-banner {
         margin-top: 90px;
+    }
+
+    .footer {
+        padding-top: 10px;
+        padding-bottom: 60px;
+    }
+    
+    .footer-left-box {
+        width: 95%;
+        display: block;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin: 0 auto !important;
+        text-align: left !important;
+    }
+    
+    .footer-logo img {
+        height: 160px;
+        margin-left: -30px;
+    }
+    
+    .footer-left-box p {
+        width: 100%;
+        font-size: 16px;
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+    
+    .footer-left-box a {
+        margin-left: 0px;
+    }
+    
+    .footer-right-box {
+        border-top: 1px solid #055373;
+        width: 95%;
+        display: block;
+        margin: 0 auto !important;
+        margin-top: 30px !important;
+        padding-top: 30px;
+    }
+    
+    .footer-col-big {
+        width: 50%;
+    }
+    
+    .footer-col {
+        width: 23%;
+    }
+    
+    .footer-bottom {
+        padding-bottom: 20px;
+    }
+    
+    .footer-bottom p {
+        margin-right: 5%;
+        font-size: 13px;
     }
     
 }
@@ -443,7 +499,7 @@
     }
 
     .hidden-temp-mobile-right-box p {
-        font-size: 16px;
+        font-size: 15px;
     } 
 
     .hidden-mobile-nav {
@@ -451,6 +507,62 @@
     }
     .breadcrumb-banner {
         margin-top: 90px;
+    }
+
+    .footer {
+        padding-top: 10px;
+        padding-bottom: 60px;
+    }
+    
+    .footer-left-box {
+        width: 95%;
+        display: block;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin: 0 auto !important;
+        text-align: left !important;
+    }
+    
+    .footer-logo img {
+        height: 170px;
+        margin-left: -30px;
+    }
+    
+    .footer-left-box p {
+        width: 100%;
+        font-size: 16px;
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+    
+    .footer-left-box a {
+        margin-left: 0px;
+    }
+    
+    .footer-right-box {
+        border-top: 1px solid #055373;
+        width: 95%;
+        display: block;
+        margin: 0 auto !important;
+        margin-top: 30px !important;
+        padding-top: 30px;
+    }
+    
+    .footer-col-big {
+        width: 50%;
+    }
+    
+    .footer-col {
+        width: 23%;
+    }
+    
+    .footer-bottom {
+        padding-bottom: 20px;
+    }
+    
+    .footer-bottom p {
+        margin-right: 5%;
+        font-size: 13px;
     }
 }
 
@@ -479,6 +591,62 @@
         padding-top: 60px;
         font-size: 55px !important;
     }
+
+    .footer {
+        padding-top: 10px;
+        padding-bottom: 60px;
+    }
+    
+    .footer-left-box {
+        width: 95%;
+        display: block;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin: 0 auto !important;
+        text-align: left !important;
+    }
+    
+    .footer-logo img {
+        height: 190px;
+        margin-left: -30px;
+    }
+    
+    .footer-left-box p {
+        width: 100%;
+        font-size: 16px;
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+    
+    .footer-left-box a {
+        margin-left: 0px;
+    }
+    
+    .footer-right-box {
+        border-top: 1px solid #055373;
+        width: 95%;
+        display: block;
+        margin: 0 auto !important;
+        margin-top: 30px !important;
+        padding-top: 30px;
+    }
+    
+    .footer-col-big {
+        width: 50%;
+    }
+    
+    .footer-col {
+        width: 23%;
+    }
+    
+    .footer-bottom {
+        padding-bottom: 20px;
+    }
+    
+    .footer-bottom p {
+        margin-right: 5%;
+        font-size: 13px;
+    }
 }
 
 /* Tablet - --------------------------------------------------------------- */
@@ -491,6 +659,28 @@
     }
     .breadcrumb-banner {
         margin-top: 90px;
+    }
+
+    .footer-left-box {
+        width: 35%;
+    }
+    
+    .footer-logo img {
+        height: 130px;
+    }
+
+    .footer-right-box {
+        width: 55%;
+    }
+
+    .footer-left-box p {
+        width: 30%;
+        margin: 0;
+        width: 90%;
+        font-size: 15px;
+    
+        margin-left: 30px;
+        margin-bottom: 40px;
     }
 }
 

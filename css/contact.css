@@ -121,7 +121,7 @@
 }   
 
 
-```css
+
 /* Mobile Small  --------------------------------------------------------- */
 @media screen and (min-width: 0px) and (max-width: 320px) {}
 
@@ -142,4 +142,3 @@
 
 /* 4K Large Desktop ------------------------------------------------------- */
 @media screen and (min-width: 1441px) {}
-```
