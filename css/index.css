@@ -1,38 +1,38 @@
 .hello-banner {
-    height: 120vh;
-    background-image: url("../img/img3.jpg");
-    background-position: center;
-    position: relative;
+  height: 120vh;
+  background-image: url("../img/img3.jpg");
+  background-position: center;
+  position: relative;
 }
 
 .hello-bg-opacity {
-    position: absolute;
-    background-color: #092E4B;
-    top: 0;
-    bottom: 0;
-    left:0;
-    right:0;
-    opacity: 0.7;
-    z-index: 9 !important;
+  position: absolute;
+  background-color: #092E4B;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.7;
+  z-index: 9 !important;
 }
 
 .hello-text {
-    position: absolute;
-    opacity: 1;
-    background-color: transparent;
-    margin-top: 230px;
-    width: 70%;
-    margin-left: 15%;
-    z-index: 99 !important;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    color: white;
-    text-align: center;
+  position: absolute;
+  opacity: 1;
+  background-color: transparent;
+  margin-top: 230px;
+  width: 70%;
+  margin-left: 15%;
+  z-index: 99 !important;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+  text-align: center;
 }
 
 .hello-text h5 {
-    font-size: 20px;
-    margin-bottom: 20px;
+  font-size: 20px;
+  margin-bottom: 20px;
 }
 
 .hello-text h1 {
@@ -59,97 +59,99 @@
 }
 
 .corner {
-    position: absolute;
-    background: none;
-    height: 25%;
-    width: 15%;
+  position: absolute;
+  background: none;
+  height: 25%;
+  width: 15%;
 }
 
 #top-left {
-    top: 0;
-    left: 0;
-    border-radius: 1px 0 0 0;
-    border-top: 2px solid white;
-    border-left: 2px solid white;
-  }
-  #top-right {
-    top: 0;
-    right: 0;
-    border-radius: 0 1px 0 0;
-    border-top: 2px solid white;
-    border-right: 2px solid white;
-  }
-  #bottom-right {
-    bottom: 0;
-    right: 0;
-    border-radius: 0 0 1px 0;
-    border-bottom: 2px solid white;
-    border-right: 2px solid white;
-  }
-  #bottom-left {
-    bottom: 0;
-    left: 0;
-    border-radius: 0 0 0 1px;
-    border-bottom: 2px solid white;
-    border-left: 2px solid white;
-  }
-  .hello-text h1 {
-    text-align: center;
-  }
+  top: 0;
+  left: 0;
+  border-radius: 1px 0 0 0;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+}
+
+#top-right {
+  top: 0;
+  right: 0;
+  border-radius: 0 1px 0 0;
+  border-top: 2px solid white;
+  border-right: 2px solid white;
+}
+
+#bottom-right {
+  bottom: 0;
+  right: 0;
+  border-radius: 0 0 1px 0;
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
+}
+
+#bottom-left {
+  bottom: 0;
+  left: 0;
+  border-radius: 0 0 0 1px;
+  border-bottom: 2px solid white;
+  border-left: 2px solid white;
+}
+
+.hello-text h1 {
+  text-align: center;
+}
 
 
-  /* ---------- services links -------------- */
-  .services-links {
-    background-color: #F7F7F7;
-  }
+/* ---------- services links -------------- */
+.services-links {
+  background-color: #F7F7F7;
+}
 
-  .services-links a {
-    text-decoration: none;
-    color: black;
-  }
+.services-links a {
+  text-decoration: none;
+  color: black;
+}
 
-  .service-box {
-      border-right: 1px solid lightgrey;
-      display: inline-block;
-      height: 350px;
-      background-color: #F7F7F7;
-      width: 19.8%;
-      padding: 10px 1px;
-      vertical-align: top;
-      margin-right: -3.5px;
-  }
+.service-box {
+  border-right: 1px solid lightgrey;
+  display: inline-block;
+  height: 350px;
+  background-color: #F7F7F7;
+  width: 19.8%;
+  padding: 10px 1px;
+  vertical-align: top;
+  margin-right: -3.5px;
+}
 
-  .service-box:hover {
-    transition: 0.2s;
-    background-color: #092E4B;
-    color: white;
-  }
+.service-box:hover {
+  transition: 0.2s;
+  background-color: #092E4B;
+  color: white;
+}
 
-  .service-box h3 {
-    margin-left: 30px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    font-size: 30px;
-    font-weight: 300;
-  }
+.service-box h3 {
+  margin-left: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 30px;
+  font-weight: 300;
+}
 
-  .service-box h3 i {
+.service-box h3 i {}
 
-  }
+.service-box h2 {
+  margin-left: 25px;
+  margin-right: 25px;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
 
-  .service-box h2 {
-    margin-left: 25px;
-    margin-right: 25px;
-    font-size: 22px;
-    margin-bottom: 20px;
-  }
-
-  .service-box p {
-    font-size: 18px;
-    margin-left: 25px;
-    margin-right: 25px;
-    font-weight: 300;
-  }
+.service-box p {
+  font-size: 18px;
+  margin-left: 25px;
+  margin-right: 25px;
+  font-weight: 300;
+}
 
 /* ---------- about -------------- */
 .about-banner {
@@ -235,32 +237,32 @@
   border-bottom: 2px solid #EB1D23;
 }
 
- /* ---------- portfolio -------------- */
- .photo-gallery-banner {
+/* ---------- portfolio -------------- */
+.photo-gallery-banner {
   border: 1px solid transparent;
   width: 90%;
   margin: 0 auto;
- }
+}
 
- .photo-gallery-banner h3 {
+.photo-gallery-banner h3 {
   color: #E31C25;
   margin-bottom: 10px;
-  font-size: 18px; 
+  font-size: 18px;
   margin-left: 2%;
- }
+}
 
- .photo-gallery-banner h2 {
+.photo-gallery-banner h2 {
   margin-bottom: 15px;
   font-size: 35px;
   margin-left: 2%;
- }
+}
 
- .gallery-row {
-    margin-bottom: 10px;
-    text-align: center;
- }
+.gallery-row {
+  margin-bottom: 10px;
+  text-align: center;
+}
 
- .gallery-photo {
+.gallery-photo {
   background-color: lightgrey;
   height: 300px;
   border-radius: 8px;
@@ -271,9 +273,9 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
- }
+}
 
- .photo-gallery-banner a {
+.photo-gallery-banner a {
   font-weight: 600;
   background-color: #EB1D23;
   border-radius: 25px;
@@ -284,7 +286,7 @@
   text-align: center;
   display: block;
   width: 150px;
-  margin:0 auto;
+  margin: 0 auto;
   margin-top: 30px;
 }
 
@@ -305,10 +307,74 @@
 @media screen and (min-width: 376px) and (max-width: 425px) {}
 
 /* Tablet - --------------------------------------------------------------- */
-@media screen and (min-width: 426px) and (max-width: 768px) {}
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .hello-banner {
+    height: 100vh;
+  }
+
+  .hello-text {
+    margin-top: 130px;
+    width: 95%;
+    margin-left: 2.5%;
+  }
+  
+  .service-box {
+    height: 200px;
+    width: 19.5%;
+    padding: 10px 1px;
+    margin-right: -3.5px;
+  }
+  
+  .service-box h3 {
+    margin-left: 30px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 30px;
+  }
+  
+  .service-box h2 {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .service-box p {
+    display: none;
+  }
+
+}
 
 /* Laptop ------------------------------------------------------------------ */
-@media screen and (min-width: 769px) and (max-width: 1024px) {}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .service-box {
+    height: 390px;
+    width: 19.6%;
+  }
+
+  .service-box p {
+    font-size: 16px;
+  }
+
+  .about-banner-left {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    border: 1px solid transparent;
+  }
+
+  .about-banner-img-1 {
+    height: 40vh;
+    width: 180px;
+    margin-top: 40px;
+  }
+
+  .about-banner-img-2 {
+    height: 50vh;
+    width: 180px;
+    margin-top: 80px;
+  }
+}
 
 /* Laptop Large -------------------------------------------------------------*/
 @media screen and (min-width: 1025px) and (max-width: 1440px) {}
