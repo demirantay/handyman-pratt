@@ -398,7 +398,7 @@
 /* Mobile Medium  --------------------------------------------------------- */
 @media screen and (min-width: 321px) and (max-width: 375px) {
   .hello-banner {
-    height: 85vh;
+    height: 90vh;
   }
 
   .hello-text {
@@ -496,7 +496,7 @@
 /* Mobile Large - --------------------------------------------------------- */
 @media screen and (min-width: 376px) and (max-width: 425px) {
   .hello-banner {
-    height: 85vh;
+    height: 90vh;
   }
 
   .hello-text {
