@@ -37,7 +37,7 @@
 }
 
 .services-left  ul {
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 .services-left  li {
@@ -63,19 +63,134 @@
 
 
 /* Mobile Small  --------------------------------------------------------- */
-@media screen and (min-width: 0px) and (max-width: 320px) {}
+@media screen and (min-width: 0px) and (max-width: 320px) {
+    .services-wrapper {
+        width: 95%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .services-left {
+        width: 90%;
+        display: block;
+        margin-left: 5%;
+    }
+    
+    .services-right {
+        width: 95%;
+        height: 35vh;
+        margin-left: 2.5%;
+        display: block;
+        margin-top: 30px;
+    }
+
+    .services-left p {
+        font-size: 16px;
+    }
+
+    .services-left h1 {
+        font-size: 30px;
+    }
+
+    .services-left h3 {
+        font-size: 25px;
+    }
+}
 
 /* Mobile Medium  --------------------------------------------------------- */
-@media screen and (min-width: 321px) and (max-width: 375px) {}
+@media screen and (min-width: 321px) and (max-width: 375px) {
+    .services-wrapper {
+        width: 95%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .services-left {
+        width: 90%;
+        display: block;
+        margin-left: 5%;
+    }
+    
+    .services-right {
+        width: 95%;
+        height: 35vh;
+        margin-left: 2.5%;
+        display: block;
+        margin-top: 30px;
+    }
+
+    .services-left p {
+        font-size: 16px;
+    }
+    
+    .services-left h1 {
+        font-size: 35px;
+    }
+
+    .services-left h3 {
+        font-size: 28px;
+    }
+}
 
 /* Mobile Large - --------------------------------------------------------- */
-@media screen and (min-width: 376px) and (max-width: 425px) {}
+@media screen and (min-width: 376px) and (max-width: 425px) {
+    .services-wrapper {
+        width: 95%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .services-left {
+        width: 90%;
+        display: block;
+        margin-left: 5%;
+    }
+    
+    .services-right {
+        width: 95%;
+        height: 35vh;
+        margin-left: 2.5%;
+        display: block;
+        margin-top: 30px;
+    }
+
+    .services-left p {
+        font-size: 16px;
+    }
+
+    .services-left h1 {
+        font-size: 35px;
+    }
+
+    .services-left h3 {
+        font-size: 28px;
+    }
+    
+}
 
 /* Tablet - --------------------------------------------------------------- */
-@media screen and (min-width: 426px) and (max-width: 768px) {}
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .services-left {
+        width: 68%;
+    }
+    
+    .services-right {
+        width: 25%;
+        height: 25vh;
+    }
+}
 
 /* Laptop ------------------------------------------------------------------ */
-@media screen and (min-width: 769px) and (max-width: 1024px) {}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .services-left {
+        width: 60%;
+    }
+    
+    .services-right {
+        width: 35%;
+        height: 40vh;
+    }
+}
 
 /* Laptop Large -------------------------------------------------------------*/
 @media screen and (min-width: 1025px) and (max-width: 1440px) {}
