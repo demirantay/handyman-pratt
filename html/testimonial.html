@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
-  <head>
+
+<head>
     <title>Handyman Pratt</title>
 
     <!-- Meta Info -->
@@ -15,11 +16,13 @@
     <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
 
     <!-- FONT AWSOME -->
     <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
     <!-- REMIX ICON -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
@@ -30,10 +33,10 @@
 
     <!-- JQUERY CDN -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    
-  </head>
 
-  <body>
+</head>
+
+<body>
 
     <!-- landing page -->
     <!-- top nav -->
@@ -42,7 +45,7 @@
             <div class="top-nav-left-box">
                 <img alt="logo" src="../branding/logo.png" id="navbar-logo">
             </div>
-        </a>    
+        </a>
         <div class="top-nav-right-box">
             <div class="top-nav-right-box-top" id="navbar-top">
                 <p><a href=""><i class="ri-phone-line"></i> Call us at (360) 774 05 29</a></p>
@@ -106,24 +109,24 @@
             <h3>PORTFOLIO</h3>
             <h2>RECENT JOBS</h2>
 
-            <div class="gallery-row">
-                <div class="gallery-photo" style="background-image: url('../img/img6.jpg');"></div>
-                <div class="gallery-photo" style="background-image: url('../img/img8.jpg');"></div>
-                <div class="gallery-photo" style="background-image: url('../img/img7.jpg');"></div>
-                <div class="gallery-photo" style="background-image: url('../img/img9.jpg');"></div>
-            </div>
-            <div class="gallery-row">
-                <div class="gallery-photo" style="background-image: url('../img/img10.jpg');"></div>
-                <div class="gallery-photo" style="background-image: url('../img/img11.jpg');"></div>
-                <div class="gallery-photo" style="background-image: url('../img/img12.jpg');"></div>
-                <div class="gallery-photo" style="background-image: url('../img/img13.jpg');"></div>
-            </div>
-            <div class="gallery-row">
-                <div class="gallery-photo" style="background-image: url('../img/img14.jpg');"></div>
-                <div class="gallery-photo" style="background-image: url('../img/img16.jpg');"></div>
-                <div class="gallery-photo"></div>
-                <div class="gallery-photo"></div>
-            </div>
+
+            <div class="gallery-photo" style="background-image: url('../img/img6.jpg');"></div>
+            <div class="gallery-photo" style="background-image: url('../img/img8.jpg');"></div>
+            <div class="gallery-photo" style="background-image: url('../img/img7.jpg');"></div>
+            <div class="gallery-photo" style="background-image: url('../img/img9.jpg');"></div>
+
+
+            <div class="gallery-photo" style="background-image: url('../img/img10.jpg');"></div>
+            <div class="gallery-photo" style="background-image: url('../img/img11.jpg');"></div>
+            <div class="gallery-photo" style="background-image: url('../img/img12.jpg');"></div>
+            <div class="gallery-photo" style="background-image: url('../img/img13.jpg');"></div>
+
+
+            <div class="gallery-photo" style="background-image: url('../img/img14.jpg');"></div>
+            <div class="gallery-photo" style="background-image: url('../img/img16.jpg');"></div>
+            <div class="gallery-photo"></div>
+            <div class="gallery-photo"></div>
+
             <a href="./html/contact.html">GET A FREE QUOTE</a>
         </div>
         <br><br><br>
@@ -163,14 +166,15 @@
         <p>Copyright© 2024. Designed & Hand Coded By Demir Antay. All Right Reserved.</p>
     </div>
 
-  </body>
+</body>
+
 </html>
 
 <script>
-    
+
     // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
     window.onscroll = function () { scrollFunction() };
-        
+
     function scrollFunction() {
         if (window.scrollY > 50) {
             document.getElementById("navbar-top").style.display = "none";
@@ -189,12 +193,12 @@
     let hidden_mobile_bg = document.getElementById("hidden-mobile-bg");
     let hidden_mobile = document.getElementById("hidden-mobile");
 
-    open_btn.onclick = function() {
+    open_btn.onclick = function () {
         hidden_mobile_bg.style.display = "block";
         hidden_mobile.style.display = "block";
     }
 
-    close_btn.onclick = function() {
+    close_btn.onclick = function () {
         hidden_mobile_bg.style.display = "none";
         hidden_mobile.style.display = "none";
     }

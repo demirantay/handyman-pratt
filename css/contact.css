@@ -123,19 +123,100 @@
 
 
 /* Mobile Small  --------------------------------------------------------- */
-@media screen and (min-width: 0px) and (max-width: 320px) {}
+@media screen and (min-width: 0px) and (max-width: 320px) {
+    .content-wrapper {
+        width: 95%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }       
+    .contact-left {
+        display: block;
+        width: 90%;
+        margin-left: 5%;
+    }
+    .contact-right {
+        display: block;
+        width: 90%;
+        height: 35vh;
+        margin-top: 20px;
+        margin-left: 5%;
+    }
+}
 
 /* Mobile Medium  --------------------------------------------------------- */
-@media screen and (min-width: 321px) and (max-width: 375px) {}
+@media screen and (min-width: 321px) and (max-width: 375px) {
+    .content-wrapper {
+        width: 95%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }       
+    .contact-left {
+        display: block;
+        width: 90%;
+        margin-left: 5%;
+    }
+    .contact-right {
+        display: block;
+        width: 90%;
+        height: 35vh;
+        margin-top: 20px;
+        margin-left: 5%;
+    }
+}
 
 /* Mobile Large - --------------------------------------------------------- */
-@media screen and (min-width: 376px) and (max-width: 425px) {}
+@media screen and (min-width: 376px) and (max-width: 425px) {
+    .content-wrapper {
+        width: 95%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }       
+    .contact-left {
+        display: block;
+        width: 90%;
+        margin-left: 5%;
+    }
+    .contact-right {
+        display: block;
+        width: 90%;
+        height: 35vh;
+        margin-top: 20px;
+        margin-left: 5%;
+    }
+    
+}
 
 /* Tablet - --------------------------------------------------------------- */
-@media screen and (min-width: 426px) and (max-width: 768px) {}
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .contact-left {
+        width: 60%;
+    }
+    .contact-right {
+        width: 38%;
+        height:55vh;
+    }
+
+    .contact-right-info {
+        margin-bottom: 20px;
+        margin-left: 10px;   
+    }
+    
+    .contact-right-info h3 {
+        font-size: 16px;
+    }   
+    
+}
 
 /* Laptop ------------------------------------------------------------------ */
-@media screen and (min-width: 769px) and (max-width: 1024px) {}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .contact-left {
+        width: 61%;
+    }
+    .contact-right {
+        width: 35%;
+        height: 65vh;
+    }
+}
 
 /* Laptop Large -------------------------------------------------------------*/
 @media screen and (min-width: 1025px) and (max-width: 1440px) {}
