@@ -74,6 +74,7 @@
     color: white !important;
     background-color: #E31C25 !important;
     border: 1px solid #E31C25 !important;
+    
 }
 
 #submit-btn:hover {
@@ -84,6 +85,37 @@
     cursor: pointer;
 }
 
+#submit-btn-link {
+    text-decoration: none;
+    display: block;
+    width: 90% !important;
+    border-radius: 15px;
+    color: white !important;
+    background-color: #E31C25 !important;
+    border: 1px solid #E31C25 !important;
+    padding: 10px 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 23px;
+}
+
+#submit-btn-link:hover {
+    background-color: #216484 !important;
+    border-color: #216484 !important;
+    transition: 0.2s; 
+    border-bottom: 2px solid #EB1D23 !important;
+    cursor: pointer;
+}
+
+.custom-txt {
+    margin-bottom: 20px;
+    margin-top: 30px;
+    width: 90% !important;
+    color: #4D4B66;
+    font-size: 20px;
+}
 
 /* --------------- contact RIGHT ------------------- */
 
